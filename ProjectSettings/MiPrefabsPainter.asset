@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf751c0e60f36a563d1f74fff9f58588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Andreleandrodev.MiPrefabsPainter.Editor::MiPrefabsPainter.Configuration.PrefabPainterSettings
+  palettes:
+  - name: Pine
+    entries:
+    - prefab: {fileID: 2207177201408129231, guid: de234aeeacde788428d20452477769a7, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 5317099217116921219, guid: bdc0f5db9aa275b46b08f08ae25563ce, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 4683481886302409706, guid: e4d07b0684b5dc149961468b0b6843b8, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 560093440667885914, guid: fc4608a86a4a1544a8e309a0a638846c, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 1254526883680900319, guid: e92b4f29f9259a0429c90fd3b0d3d18e, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 3419070916855177132, guid: 054c1c0ab707da847872020f073179ac, type: 3}
+      weight: 1
+      selected: 1
+    placement:
+      enabled: 1
+      foliageDensity: 2
+      yawMode: 0
+      yawOffset: 0
+      randomizeScale: 1
+      uniformScale: 1
+      minScale: {x: 0.8, y: 0.8, z: 0.8}
+      maxScale: {x: 1.2, y: 1.2, z: 1.2}
+  - name: Flower
+    entries:
+    - prefab: {fileID: 2207177201408129231, guid: de234aeeacde788428d20452477769a7, type: 3}
+      weight: 1
+      selected: 1
+    - prefab: {fileID: 5317099217116921219, guid: bdc0f5db9aa275b46b08f08ae25563ce, type: 3}
+      weight: 1
+      selected: 1
+    - prefab: {fileID: 4683481886302409706, guid: e4d07b0684b5dc149961468b0b6843b8, type: 3}
+      weight: 1
+      selected: 1
+    - prefab: {fileID: 560093440667885914, guid: fc4608a86a4a1544a8e309a0a638846c, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 1254526883680900319, guid: e92b4f29f9259a0429c90fd3b0d3d18e, type: 3}
+      weight: 1
+      selected: 0
+    - prefab: {fileID: 3419070916855177132, guid: 054c1c0ab707da847872020f073179ac, type: 3}
+      weight: 1
+      selected: 0
+    placement:
+      enabled: 1
+      foliageDensity: 2
+      yawMode: 0
+      yawOffset: 0
+      randomizeScale: 1
+      uniformScale: 1
+      minScale: {x: 3, y: 3, z: 3}
+      maxScale: {x: 4, y: 4, z: 4}
+  activePaletteIndex: 1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  minDistance: 0.3
+  minSlope: 0
+  maxSlope: 180
+  useMeshFallback: 1
+  alignToNormal: 0
+  normalBlend: 1
+  surfaceOffset: 0
+  yawMode: 0
+  yawOffset: 0
+  maxTilt: 0.7
+  sitOnSurface: 0
+  randomizeScale: 1
+  uniformScale: 1
+  minScale: {x: 0.8, y: 0.8, z: 0.8}
+  maxScale: {x: 1.2, y: 1.2, z: 1.2}
+  showGhost: 1
+  maxGhosts: 160
+  ghostDetail: 0
+  realisticArea: 0
+  spawnOnlyInMeshes: 1
+  forceFullDensity: 0
+  notificationSeconds: 3
+  brushRadius: 1
+  brushDensity: 4
+  pickOrder: 1
+  foliageFill: 0
+  foliageDensity: 2
+  foliageEraseDensity: 0
+  foliageAutoSpacing: 1
+  foliageJitter: 0.75
+  gridAlignment: 0
+  foliageLatticeErase: 0
+  scopeRoot:
+    globalObjectId: 
+  maxInstancesPerStroke: 500
+  continuousStroke: 1
+  strokeSpacing: 1
+  eraseOnlyPalettePrefabs: 1
+  useStrokeSeed: 0
+  strokeSeed: 20260728
+  userPresets:
+  - name: Pine Brush
+    builtIn: 0
+    sitOnSurface: 0
+    surfaceOffset: 0
+    minSlope: 0
+    maxSlope: 180
+    alignToNormal: 0
+    normalBlend: 1
+    yawMode: 0
+    yawOffset: 0
+    maxTilt: 0.7
+    randomizeScale: 1
+    uniformScale: 1
+    minScale: {x: 0.8, y: 0.8, z: 0.8}
+    maxScale: {x: 1.2, y: 1.2, z: 1.2}
+    brushDensity: 1
+    minDistance: 0.5
+    pickOrder: 1
+    continuousStroke: 1
+    maxInstancesPerStroke: 500
+    strokeSpacing: 1
+    eraseOnlyPalettePrefabs: 1
+    foliageFill: 0
+    foliageDensity: 2
+    foliageEraseDensity: 0
+    foliageAutoSpacing: 1
+    foliageJitter: 0.75
+    gridAlignment: 0
+    foliageLatticeErase: 0

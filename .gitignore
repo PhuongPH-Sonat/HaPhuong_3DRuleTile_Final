@@ -126,3 +126,7 @@ $RECYCLE.BIN/
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Keep Unity project packages
+!/Packages/
+!/Packages/**
